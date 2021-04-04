@@ -1,0 +1,84 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: lightgrey;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgrey;
+}
+
+/*************** homepage and gallery / header *****************/
+
+header{
+  background-color: rgb(19, 18, 18);
+  height: 150px;
+  border-bottom: 6px solid red;
+}
+
+#homelogo{ /* logo image */ 
+  float: left;
+  margin-right: 60px;
+}
+
+h1{
+  margin-top: 0px;
+  padding-top: 40px;
+  display: inline-block;
+}
+
+header nav{
+  float: right;
+  margin-top: 60px;
+}
+
+header nav ul{
+  margin-top: 0;
+  list-style: none;
+}
+
+header nav li{
+  float: left;
+  padding: 0 20px 0 20px;
+  display: inline;
+
+}
+
+header a{
+  color: lightgrey;
+  text-decoration: none;
+}
+
+
+/*************** homepage and gallery / main *****************/
+
+main{
+  width: 90%;
+  margin:auto;
+}
+
+.weight, .Cali, .cross{
+  background-color: rgb(131, 45, 45);
+  text-align: center;
+}
+
+.weight h2, .Cali h2, .cross h2{
+  padding: 20px;
+}
+
+iframe{
+  border: 3px solid white
+}
+
+img{
+  padding-bottom: 20px;
+}
+
+/*************** homepage and gallery / footer *****************/
+
+footer{
+  background-color: #424642;
+  height: 70px;
+  border-top: 5px solid red;
+  margin-top: 15px;
+  text-align: center;
+}
